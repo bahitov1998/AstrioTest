@@ -1,0 +1,3 @@
+SELECT * FROM worker 
+LEFT JOIN car ON worker.id = car.user_id 
+INNER JOIN child ON worker.id = child.user_id ;
